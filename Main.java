@@ -5,7 +5,7 @@ class Main {
   // Second array(string)
   String [] studentsNames = {"Zachery", "Jeff", "Sally", "Sophia", "Xavier", "Joseph", "Katelyn", "Zoey", "Jhon", "Bob", "Donna", "Elizabth", "Frank", "Kevin", "Jasmine"};
   // For loop
-  for (int i = 0; i < names.length; i++)
+  for (int i = 0; i < studentsNames.length; i++)
 
   }
 }
