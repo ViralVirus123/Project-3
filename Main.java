@@ -8,12 +8,18 @@ class Main {
   // Scanner for reciving names
   Scanner input = new Scanner(System.in);
   String[] studentNames = new String[15];
-  
+  // For loop to run through the names
   for (int i = 0; i < studentNames.length; i++)
   {
     System.out.println("What is your name?");
     studentNames[i] = input.next();
-
+  }
+  // While loop for printing string array and int array
+  while (numberOfSeats && studentNames =! 15)
+  {
+    System.out.println(studentNames + " sits in seat number " + numberOfSeats);
+    numberOfSeats++;
+    studentNames++;
   }
   }
 }
