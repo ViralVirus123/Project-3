@@ -7,6 +7,13 @@ class Main {
   String [] studentsNames = {"Zachery", "Jeff", "Sally", "Sophia", "Xavier", "Joseph", "Katelyn", "Zoey", "Jhon", "Bob", "Donna", "Elizabth", "Frank", "Kevin", "Jasmine"};
   // Scanner for reciving names
   Scanner input = new Scanner(System.in);
-  int[] seats = new int[15];
+  String[] studentNames = new String[15];
+  
+  for (int i = 0; i < studentNames.length; i++)
+  {
+    System.out.println("What is your name?");
+    studentNames[i] = input.next();
+
+  }
   }
 }
