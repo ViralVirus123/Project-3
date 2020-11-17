@@ -15,11 +15,11 @@ class Main {
     studentNames[i] = input.next();
   }
   // While loop for printing string array and int array
-  while (numberOfSeats && studentNames =! 15)
+  int i = 0;
+  while (i < studentNames.length)
   {
-    System.out.println(studentNames + " sits in seat number " + numberOfSeats);
-    numberOfSeats++;
-    studentNames++;
+    System.out.println(studentNames[i] + " sits in seat number " + numberOfSeats[i]);
+  i++; 
   }
   }
 }
